@@ -9,8 +9,10 @@ module.exports = {
 
   attributes: {
 
-
-    questionText: {
+      id:{
+        type:'number'
+      },
+    name: {
       type: 'string',
       defaultsTo: '',
       },
@@ -18,8 +20,11 @@ module.exports = {
       type: 'string',
       defaultsTo: ''
       },
-      explanation: {
-      type: 'string'
+      questionTypeId: {
+      type: 'string',
+      },
+      answered:{
+        type: 'boolean',
       },
     
 
